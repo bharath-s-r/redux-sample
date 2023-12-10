@@ -1,9 +1,14 @@
 import './App.css';
+import Profile from "./components/Profile";
+import Login from "./components/LoginComponent";
+import ChangeColor from "./components/ChangeColor";
 
 function App() {
   return (
     <div className="App">
-      Hello Bharath
+      <Profile />
+      <Login />
+      <ChangeColor />
     </div>
   );
 }
